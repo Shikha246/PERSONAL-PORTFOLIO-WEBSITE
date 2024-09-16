@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shikha Ramrakhyani - Data Analyst</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="https://drive.google.com/file/d/1xdKMtmgYaat1y0dPFJHpQZaU_tyx8ZXB/view?usp=sharing" class="logo">Shikha Ramrakhyani</a>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h1>About Me</h1>
+            <img src="shikha.jpg" alt="Shikha Ramrakhyani" class="profile-pic">
+            <p>I am a passionate Data Analyst skilled in Python, SQL, and machine learning, currently working as a Data Analyst Intern at Maveric Infotech. I have hands-on experience with data visualization, data wrangling, and machine learning models.</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li>Languages: Python, HTML, CSS, JavaScript, SQL</li>
+                <li>Libraries: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn</li>
+                <li>Tools: Excel, Tableau, Jupyter Notebook</li>
+                <li>Frameworks: Flask, Git, GitHub</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-list">
+                <div class="project">
+                    <h3>Customer Segmentation Project</h3>
+                    <p>Customer segmentation using KMeans and Agglomerative Clustering. <a href="https://github.com/Shikha246/customer-segmentation-project" target="_blank">View on GitHub</a></p>
+                    <button class="modal-btn" data-modal="modal1">View Details</button>
+                </div>
+                <div class="project">
+                    <h3>Sales & Profit Analysis Dashboards</h3>
+                    <p>Tableau dashboards for sales and profit analysis. <a href="https://github.com/Shikha246/Sales-Profit-Analysis-Tableau-Dashboards-Personal-Project-" target="_blank">View on GitHub</a></p>
+                    <button class="modal-btn" data-modal="modal2">View Details</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modals for Project Details -->
+        <div id="modal1" class="modal">
+            <div class="modal-content">
+                <span class="close-btn">&times;</span>
+                <h3>Customer Segmentation Project</h3>
+                <p><ul>
+                    <li>Conducted a detailed customer personality analysis project using clustering algorithms like KMeans and Agglomerative Clustering.</li>
+                     <li>Reduced dataset dimensions using PCA and applied KMeans clustering to segment customers into 2 distinct groups.</li>
+                     <li>Achieved a silhouette score of 0.49 and 97% classification accuracy using Random Forest and XGBoost classifiers in the customer segmentation analysis.</li>
+                     <li>Visualized clusters and centroids using matplotlib and seaborn to gain insights into customer behavior patterns.</li>
+                </ul> 
+                    
+                    </p>
+                <img class="pro-pic" src="kmeans_clusters.png" alt="Project Image">
+                <img class="pro-pic" src="agglomerative_clusters.png" alt="Project Image">
+                <img class="pro-pic" src="roc_curve.png" alt="Project Image">
+            </div>
+        </div>
+
+        <div id="modal2" class="modal">
+            <div class="modal-content">
+                <span class="close-btn">&times;</span>
+                <h3>Sales & Profit Analysis Dashboards</h3>
+                <p><ul>
+                    <li>•Created interactive Tableau dashboards using MySQL as the data source to
+                        analyze revenue, profit margins, and sales trends.</li>
+                    <li>•Implemented features like time filters and
+                        dynamic visualizations for in-depth market and product performance analysis.</li>
+                    <li>•Enhanced
+                        data-driven decision-making by identifying top-performing customers and products across
+                        multiple markets.</li>
+                    
+                </ul></p>
+                <h2>Profit Analysis</h2>
+                <img class="pro-pic" src="profit_analysis.png" alt="Project Image"> <!-- Placeholder for project image -->
+                <h2>Revenue Analysis</h2>
+                <img class="pro-pic" src="revenue_analysis.png" alt="Project Image">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <ul>
+                <li><i class="fas fa-envelope"></i> <a href="mailto:ramrakhyani.shikha@gmail.com">ramrakhyani.shikha@gmail.com</a></li>
+                <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/shikha-ramrakhyani-9a5a2654/" target="_blank">LinkedIn Profile</a></li>
+                <li><i class="fab fa-github"></i> <a href="https://github.com/Shikha246" target="_blank">GitHub Profile</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
